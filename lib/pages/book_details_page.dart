@@ -11,7 +11,7 @@ class BookDetailsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Theme.of(context).colorScheme;
+    final colorScheme = Theme.of(context).colorScheme;
     final textTheme = Theme.of(context).textTheme;
 
     return Scaffold(
@@ -25,16 +25,15 @@ class BookDetailsPage extends StatelessWidget {
               width: double.infinity,
               height: 220,
               decoration: BoxDecoration(
-               
-  color: const Color(0xFFE8DDD0),
+                color: colorScheme.surfaceContainerHighest,
                 borderRadius: BorderRadius.circular(16),
               ),
               child: Image.asset(
-  book.image,
-  width: double.infinity,
-  height: 220,
-fit: BoxFit.contain,
-),
+                book.image,
+                width: double.infinity,
+                height: 220,
+                fit: BoxFit.contain,
+              ),
             ),
             const SizedBox(height: 24),
             Text(
@@ -44,7 +43,7 @@ fit: BoxFit.contain,
             const SizedBox(height: 4),
             Text(
               context.tr('books.${book.id}.author'),
-            style: const TextStyle(color: Color(0xFF806044)),
+              style: TextStyle(color: colorScheme.onSurfaceVariant),
             ),
             const SizedBox(height: 12),
             Text(
@@ -53,7 +52,7 @@ fit: BoxFit.contain,
                 namedArgs: {'price': book.price.toStringAsFixed(2)},
               ),
               style: textTheme.titleLarge?.copyWith(
-             color: const Color(0xFFA64F2B),
+                color: colorScheme.primary,
                 fontWeight: FontWeight.bold,
               ),
             ),

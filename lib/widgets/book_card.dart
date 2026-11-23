@@ -11,7 +11,7 @@ class BookCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Theme.of(context).colorScheme;
+    final colorScheme = Theme.of(context).colorScheme;
     final textTheme = Theme.of(context).textTheme;
 
     return Card(
@@ -24,13 +24,13 @@ class BookCard extends StatelessWidget {
             Expanded(
               child: Container(
                 width: double.infinity,
-            color: const Color(0xFFE8CBA8),
+                color: colorScheme.surfaceContainerHighest,
                 child: Image.asset(
-  book.image,
-  width: double.infinity,
-  height: 220,
-  fit: BoxFit.contain,
-),
+                  book.image,
+                  width: double.infinity,
+                  height: 220,
+                  fit: BoxFit.contain,
+                ),
               ),
             ),
             Padding(
@@ -48,7 +48,7 @@ class BookCard extends StatelessWidget {
                     context.tr('books.${book.id}.author'),
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
-                   style: const TextStyle(color: Color(0xFF806044)),
+                    style: TextStyle(color: colorScheme.onSurfaceVariant),
                   ),
                   const SizedBox(height: 4),
                   Text(
@@ -56,10 +56,9 @@ class BookCard extends StatelessWidget {
                       'book.price',
                       namedArgs: {'price': book.price.toStringAsFixed(2)},
                     ),
-                 style: const TextStyle(
-  color: Color(0xFFA64F2B),
-  fontWeight: FontWeight.bold,
-
+                    style: TextStyle(
+                      color: colorScheme.primary,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ],

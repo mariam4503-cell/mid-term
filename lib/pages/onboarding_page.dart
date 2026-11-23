@@ -2,7 +2,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
-import '../widgets/onboarding_image.dart';
+
 import 'login_page.dart';
 
 class OnboardingPage extends StatelessWidget {

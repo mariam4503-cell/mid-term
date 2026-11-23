@@ -1,0 +1,89 @@
+{
+  "app_name": "Cozy Pages",
+  "onboarding": {
+    "skip": "Skip",
+    "next": "Next",
+    "done": "Done",
+    "p1": {
+      "title": "Find your next favorite book",
+      "body": "Browse a warm collection of stories, novels and poems."
+    },
+    "p2": {
+      "title": "Read anywhere",
+      "body": "Take your whole library with you, wherever you like to read."
+    },
+    "p3": {
+      "title": "Cozy up and read",
+      "body": "Pick a book, make a cup of tea and enjoy the next page."
+    }
+  },
+  "login": {
+    "title": "Welcome back",
+    "subtitle": "Log in to continue",
+    "email": "Email",
+    "password": "Password",
+    "button": "Login",
+    "no_account": "Don't have an account?",
+    "sign_up": "Sign up"
+  },
+  "signup": {
+    "title": "Create account",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "button": "Create account",
+    "have_account": "Already have an account?",
+    "login": "Login"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "dark_mode": "Dark mode"
+  },
+  "book": {
+    "price": "{price} USD",
+    "back": "Back to books"
+  },
+  "books": {
+    "b1": {
+      "title": "The Maze Runner",
+      "author": "James Dashner",
+      "description": "A boy wakes up with no memory in a place surrounded by a deadly maze, and must find a way out together with the others."
+    },
+    "b2": {
+      "title": "The Chronicles of Narnia",
+      "author": "C. S. Lewis",
+      "description": "Children step through a wardrobe into a magical land of talking animals, where it is always winter."
+    },
+    "b3": {
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "description": "Four sisters grow up together, chase their dreams and lean on each other through good times and hard ones."
+    },
+    "b4": {
+      "title": "Anne of Green Gables",
+      "author": "L. M. Montgomery",
+      "description": "A talkative, imaginative orphan girl arrives at a farm and slowly wins over a whole village."
+    },
+    "b5": {
+      "title": "Harry Potter and the Philosopher's stone",
+      "author": "J. K. Rowling",
+      "description": "A boy discovers he is a wizard and begins a magical adventure at a school of witchcraft and wizardry."
+    },
+    "b6": {
+      "title": "Ikadoli",
+      "author": "Dr. Hanan Lashin",
+      "description": "A fantasy adventure: a young man opens an empty book and is carried to a strange land, where he gains unusual abilities and fights to save the kingdoms."
+    },
+    "b7": {
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "description": "A young girl in Nazi Germany finds comfort in stealing books, in a story told by Death himself."
+    },
+    "b8": {
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "description": "In a harsh future nation, a girl volunteers to take her sister's place in a televised fight for survival."
+    }
+  }
+}
